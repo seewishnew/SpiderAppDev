@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Task One</string>
+    <string-array name="department">
+        <item>CSE</item>
+        <item>ECE</item>
+        <item>EEE</item>
+        <item>Mech</item>
+        <item>ICE</item>
+        <item>Civil</item>
+        <item>Chemical</item>
+        <item>MME</item>
+        <item>Production</item>
+        <item>Architecture</item>
+    </string-array>
+</resources>
