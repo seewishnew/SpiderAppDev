@@ -5,8 +5,10 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.ArrayAdapter;
+import android.widget.CheckBox;
 import android.widget.CompoundButton;
 import android.widget.EditText;
+import android.widget.LinearLayout;
 import android.widget.Spinner;
 import android.widget.Switch;
 import android.widget.Toast;
@@ -48,6 +50,22 @@ public class MainActivity extends AppCompatActivity {
         EditText name = (EditText) findViewById(R.id.name);
         EditText rollNo = (EditText) findViewById(R.id.rollNo);
 
+        CheckBox checkBoxes[] = new CheckBox[4];
+
+        checkBoxes[0] = (CheckBox) findViewById(R.id.appDev);
+        checkBoxes[1] = (CheckBox) findViewById(R.id.webDev);
+        checkBoxes[2] = (CheckBox) findViewById(R.id.tronix);
+        checkBoxes[3] = (CheckBox) findViewById(R.id.algo);
+
+        boolean flag = false;
+
+                for(CheckBox checkBox: checkBoxes){
+                    if(checkBox.isChecked())
+                    {
+                        flag = true;
+                        break;
+                    }
+                }
 
         if(name.getText().toString().length()==0)
         {
@@ -63,6 +81,9 @@ public class MainActivity extends AppCompatActivity {
             rollNo.requestFocus();
         }
 
+        else if(flag == false){
+            Toast.makeText(this, "Please choose a field in checkbox", Toast.LENGTH_SHORT).show();
+        }
         else{
 
             Intent intent = new Intent(this, Main2Activity.class);
