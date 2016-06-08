@@ -2,7 +2,11 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+<<<<<<< HEAD
       <module fileurl="file://$PROJECT_DIR$/TaskOne.iml" filepath="$PROJECT_DIR$/TaskOne.iml" />
+=======
+      <module fileurl="file://$PROJECT_DIR$/TaskZero.iml" filepath="$PROJECT_DIR$/TaskZero.iml" />
+>>>>>>> fc8fbe27bcbe6e1651e24b031ab721f3316f1668
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
     </modules>
   </component>

@@ -1,6 +1,10 @@
 # Add project specific ProGuard rules here.
 # By default, the flags in this file are appended to flags specified
+<<<<<<< HEAD
 # in /home/vishnu/Android/Sdk/tools/proguard/proguard-android.txt
+=======
+# in C:\Users\Vishnu\AppData\Local\Android\sdk/tools/proguard/proguard-android.txt
+>>>>>>> fc8fbe27bcbe6e1651e24b031ab721f3316f1668
 # You can edit the include path and order by changing the proguardFiles
 # directive in build.gradle.
 #

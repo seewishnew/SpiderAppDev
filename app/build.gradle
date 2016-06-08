@@ -2,11 +2,19 @@ apply plugin: 'com.android.application'
 
 android {
     compileSdkVersion 23
+<<<<<<< HEAD
     buildToolsVersion "23.0.3"
 
     defaultConfig {
         applicationId "com.example.vishnu.taskone"
         minSdkVersion 15
+=======
+    buildToolsVersion "23.0.1"
+
+    defaultConfig {
+        applicationId "com.example.vishnu.taskzero"
+        minSdkVersion 21
+>>>>>>> fc8fbe27bcbe6e1651e24b031ab721f3316f1668
         targetSdkVersion 23
         versionCode 1
         versionName "1.0"
@@ -23,4 +31,8 @@ dependencies {
     compile fileTree(dir: 'libs', include: ['*.jar'])
     testCompile 'junit:junit:4.12'
     compile 'com.android.support:appcompat-v7:23.4.0'
+<<<<<<< HEAD
+=======
+    compile 'com.android.support:design:23.4.0'
+>>>>>>> fc8fbe27bcbe6e1651e24b031ab721f3316f1668
 }

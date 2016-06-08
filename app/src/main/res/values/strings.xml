@@ -1,4 +1,5 @@
 <resources>
+<<<<<<< HEAD
     <string name="app_name">Task One</string>
     <string-array name="department">
         <item>CSE</item>
@@ -12,4 +13,8 @@
         <item>Production</item>
         <item>Architecture</item>
     </string-array>
+=======
+    <string name="app_name">Task Zero</string>
+    <string name="action_settings">Settings</string>
+>>>>>>> fc8fbe27bcbe6e1651e24b031ab721f3316f1668
 </resources>
